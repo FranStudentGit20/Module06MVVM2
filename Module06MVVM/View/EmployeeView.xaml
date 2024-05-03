@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module06MVVM.View.EmployeeView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ID"/>
+            <Entry Text="{Binding EmployeeModelSet.Id}"/>
+            <Label Text="Name"/>
+            <Entry Text="{Binding EmployeeModelSet.Name}"/>
+            <Label Text="Email"/>
+            <Entry Text="{Binding EmployeeModelSet.Email}"/>
+            <Label Text="Address"/>
+            <Entry Text="{Binding EmployeeModelSet.Address}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
