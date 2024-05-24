@@ -5,13 +5,13 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="ID"/>
-            <Entry Text="{Binding EmployeeModelSet.Id}"/>
             <Label Text="Name"/>
-            <Entry Text="{Binding EmployeeModelSet.Name}"/>
+            <Entry x:Name="txtName" Placeholder="Enter Employee Name"/>
             <Label Text="Email"/>
-            <Entry Text="{Binding EmployeeModelSet.Email}"/>
+            <Entry x:Name="txtEmail" Placeholder="Enter Employee Email"/>
             <Label Text="Address"/>
-            <Entry Text="{Binding EmployeeModelSet.Address}"/>
+            <Entry x:Name="txtAddress" Placeholder="Enter Employee Address"/>
+            <Button Text="Save Record" Clicked="btnSaveUpdate_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

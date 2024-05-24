@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Module06MVVM.Model
 {
-    internal class EmployeeModel
+    public class EmployeeModel
     {
         public int Id { get; set; }
 

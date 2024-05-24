@@ -11,7 +11,7 @@ namespace Module06MVVM
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new View.EmployeeView());
+            MainPage = new NavigationPage(new View.ShowEmployeePage());
         }
 
         protected override void OnStart()
